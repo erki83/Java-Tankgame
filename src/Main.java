@@ -16,8 +16,8 @@ public class Main {
         int lnurk = lask1.nextInt();
         System.out.println("Sisesta lasketugevus");
         int ltug = lask2.nextInt();
-        Tulistamine PanePaika = new Tulistamine(lnurk, ltug);
-        PanePaika.arvutamine();
+        Tulistamine Tulistamine = new Tulistamine(lnurk, ltug);
+        Tulistamine.arvutamine();
 
 
 
